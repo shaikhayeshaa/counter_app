@@ -66,7 +66,7 @@ class Homesreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.green,
                     ),
-                    child: Center(child: Text('i am a counter')),
+                    child: Center(child: Text('i am a container ')),
                   ),
                   Slider(
                     value: provider.getContainerHeight.toDouble(),
